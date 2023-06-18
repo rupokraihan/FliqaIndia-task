@@ -2,8 +2,16 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ["sans"],
+        jura: ["Jura"],
+        josefinsans: ["Josefin Sans"],
+        josefinslab: ["Josefin Slab"],
+      },
+    },
   },
+
   plugins: [require("daisyui")],
 };
 

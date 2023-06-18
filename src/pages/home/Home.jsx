@@ -1,12 +1,16 @@
 import React from 'react';
 import Navbar from './Navbar';
 import Header from './Header';
+import Trusted from './trusted';
+import Featured from './Featured';
 
 const Home = () => {
   return (
     <div>
       <Navbar />
-      <Header/>
+      <Header />
+      <Trusted />
+      <Featured/>
     </div>
   );
 };
