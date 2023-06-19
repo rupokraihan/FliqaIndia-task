@@ -57,7 +57,7 @@ const Discover = () => {
       <h2 className="text-center font-bold tracking-wider text-4xl mt-12">
         Popular: Website Design Logo Design Brochure Label Design
       </h2>
-      <ul className="border-2 mb-10 mt-12 border-black m-24"></ul>
+      <ul className="border-2 mb-10 mt-12 border-black m-10"></ul>
     </div>
   );
 };

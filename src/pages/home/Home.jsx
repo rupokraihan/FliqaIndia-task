@@ -6,6 +6,10 @@ import Featured from './Featured';
 import Discover from './discover';
 import Blogs from './Blogs';
 import Weading from './Weading';
+import Offer from './Offer';
+import Testimonials from './Testimonials';
+import Awards from './Awards';
+import Success from './Success';
 
 const Home = () => {
   return (
@@ -16,7 +20,11 @@ const Home = () => {
       <Featured />
       <Discover />
       <Blogs />
-      <Weading/>
+      <Weading />
+      <Offer />
+      <Testimonials />
+      <Awards />
+      <Success/>
     </div>
   );
 };

@@ -17,13 +17,13 @@ const Weading = () => {
           List your wedding and browse portfolio
         </p>
       </div>
-      <div className='flex justify-between px-16'>
+      <div className="flex justify-between px-16">
         <img src={img1} alt="" />
         <img src={img2} alt="" />
         <img src={img3} alt="" />
         <img src={img4} alt="" />
       </div>
-      <div className='relative flex justify-center mt-14'>
+      <div className="relative flex justify-center mt-14">
         <img src={img5} alt="" />
         <img
           src={img6}
@@ -31,6 +31,7 @@ const Weading = () => {
           className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
         />
       </div>
+      <ul className="border-2 mb-10 mt-12 border-black"></ul>
     </div>
   );
 };
