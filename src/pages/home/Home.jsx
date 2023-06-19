@@ -10,6 +10,8 @@ import Offer from './Offer';
 import Testimonials from './Testimonials';
 import Awards from './Awards';
 import Success from './Success';
+import Photography from './Photography';
+import Footer from './Footer';
 
 const Home = () => {
   return (
@@ -24,7 +26,9 @@ const Home = () => {
       <Offer />
       <Testimonials />
       <Awards />
-      <Success/>
+      <Success />
+      <Photography />
+      <Footer/>
     </div>
   );
 };
